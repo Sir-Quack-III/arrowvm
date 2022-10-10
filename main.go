@@ -8,5 +8,5 @@ import (
 func main() {
 	fmt.Println("ArrowVM")
 	vm.Init()
-	vm.NewPt(0, 10, "pointer")
+	fmt.Println(vm.MemCheck(11))
 }
